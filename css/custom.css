@@ -2,23 +2,37 @@
 nav {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 0.9em;
+    font-size: 14px;
 }
 
 nav .btn-primary {
-    font-size: 0.9rem;
+    font-size: 16px;
+    font-weight: 600;
     background-color: #f3a617;
-    border: 1.5px solid #f3a617;
+    border-color: #f3a617;
 }
 
 nav .btn-primary:hover {
-    font-size: 0.9rem;
-    border: 1.5px solid #f3a617;
-    background-color: #f3a617;
+    font-size: 16px;
+    border-color: #c68205;
+    background-color: #c68205;
 }
 
 nav .btn-outline-secondary {
-    font-size: 0.9rem;
+    font-size: 16px;
+    font-weight: 600;
+    border-color: #BCD0E5;
+    color: #173A56;
+}
+
+@media (max-width: 768px) {
+    nav .btn-primary {
+        margin-top: 10px;
+    }
+
+    nav .btn-outline-secondary {
+        margin-top: 10px;
+    }
 }
 /* end style navbar */
 
@@ -36,18 +50,36 @@ nav .btn-outline-secondary {
 
 .hero a{
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
 }
 
 .hero .btn-primary {
     background-color: #f3a617;
     border: none;
-    padding: 10px 30px;
-    font-size: 18px;
+    font-weight: 700;
 }
 
 .hero .btn-primary:hover {
     background-color: #c68307;
     border: none;
+}
+
+.btn-link {
+    color: #f3a617;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+@media (max-width: 768px){
+    .hero img {
+        margin-bottom: 35px;
+    }
+    
+    .hero .btn-primary {
+        font-size: 0.9em;
+    }
+
+    .hero .btn-link {
+        font-size: 0.9em;
+    }
 }
 /* end style Hero */
