@@ -6,19 +6,48 @@
     <title>Fadil Strap</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <section class="hero">
+    <nav class="navbar navbar-expand-lg navbar-light py-4">
         <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" width="187" alt="" srcset=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link" href="#">Customers</a>
+                    </li>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item align-self-center">
+                    <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <a href="#" class="btn px-4 py-1 btn-outline-secondary btn-lg mr-2 ml-4" role="button" aria-pressed="true">Sign In</a>
+                    <a href="#" class="btn px-4 py-1 btn-primary btn-lg" role="button" aria-pressed="true">Sign Up</a>
+                </ul>
+            </div>
+            
+        </div>
+      </nav>
+      
+    <section class="hero mt-5">
+        <div class="container d-flex">
             <div class="row">
-                <div class="col">
-                    <h1>The Design Thinking Superowers</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum eum aliquam eligendi numquam nostrum explicabo placeat minima a, rerum debitis!</p>
-                    <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Get Started</a>
+                <div class="col-md-6 order-md-2">
+                    <img src="images/hero-icon.png" width="100%" class="" alt="" srcset="">
                 </div>
-                <div class="col">
-                    <img width="600px" src="images/hero-icon.png" alt="" srcset="">
+                <div class="col-md-6 order-md-1 align-self-center">
+                    <h1 class="mb-4">The Design Thinking Superpowers</h1>
+                    <p class="mb-5">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+                    <a href="#" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Get Started</a>
                 </div>
             </div>
         </div>
