@@ -222,3 +222,33 @@ nav .btn-outline-secondary {
     font-weight: 700;
     font-family: 'poppins', sans-serif;
 }
+/* end style section 5 */
+
+/* style section 6 */
+.section-6 {
+    background-image: url(../images/bg-section-6.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50rem;
+    margin-top: 9rem;
+    font-family: 'poppins', sans-serif;
+}
+
+.section-6 h1 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+}
+
+.section-6 .btn-primary {
+    background-color: #f3a617;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 15px 30px;
+}
+
+.section-6 .btn-primary:hover {
+    background-color: #c68307;
+    border: none;
+}

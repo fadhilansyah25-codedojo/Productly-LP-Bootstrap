@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="264" height="104.5" viewBox="0 0 264 104.5">
+  <defs>
+    <filter id="Combined_Shape" x="0" y="0" width="264" height="83" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#567592" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_Copy_2" x="203.5" y="50.5" width="54" height="54" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-color="#173a56" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Text" transform="translate(12 10)">
+    <g transform="matrix(1, 0, 0, 1, -12, -10)" filter="url(#Combined_Shape)">
+      <path id="Combined_Shape-2" data-name="Combined Shape" d="M187.374,53H26.5a26.5,26.5,0,0,1,0-53h187a26.5,26.5,0,1,1,0,53h-9.873a8.5,8.5,0,0,1-16.253,0Z" transform="translate(12 10)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -12, -10)" filter="url(#Oval_Copy_2)">
+      <circle id="Oval_Copy_2-2" data-name="Oval Copy 2" cx="4.5" cy="4.5" r="4.5" transform="translate(226 71)" fill="#fff"/>
+    </g>
+    <text id="I_can_prototype_your" data-name="I can prototype your" transform="translate(122 32)" fill="#2f281e" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-99.512" y="0">I can prototype your app</tspan></text>
+  </g>
+</svg>
