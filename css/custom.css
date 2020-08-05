@@ -86,7 +86,7 @@ nav .btn-outline-secondary {
 
 /* style section Service */
 .service {
-    margin-top: 6rem;
+    margin-top: 9rem;
     font-family: 'poppins', sans-serif;
 }
 
@@ -141,7 +141,7 @@ nav .btn-outline-secondary {
 }
 
 .services {
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 
 .background-service{
@@ -162,9 +162,13 @@ nav .btn-outline-secondary {
     background-color: #c68307;
     border: none;
 }
-/* style section Service */
+/* end style section Service */
 
 /* style section 3 */
+.section-3 {
+    margin-top: 9rem;
+}
+
 .section-3 h1{
     font-family: 'poppins', sans-serif;
     font-weight: 700;
@@ -179,15 +183,12 @@ nav .btn-outline-secondary {
     font-weight: 700;
     font-family: 'poppins', sans-serif;
 }
-
-.section-3 {
-    margin-top: 6rem;
-}
 /* end style section 3 */
 
 /* style section 4 */
 .section-4 {
-    margin-top: 6rem;
+    margin-top: 9rem;
+    font-family: 'poppins', sans-serif;
 }
 
 .section-4 p {
@@ -198,4 +199,26 @@ nav .btn-outline-secondary {
 .section-4 h1 {
     font-family: 'poppins', sans-serif;
     font-weight: 700;
+}
+/* end style section 4 */
+
+/* style section 5 */
+.section-5 {
+    margin-top: 9rem;
+    font-family: 'poppins', sans-serif;
+}
+
+.section-5 h1{
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+}
+
+.section-5 p {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+}
+
+.section-5 h6 {
+    font-weight: 700;
+    font-family: 'poppins', sans-serif;
 }
