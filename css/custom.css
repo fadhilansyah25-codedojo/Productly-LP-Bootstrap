@@ -1,7 +1,7 @@
 /* style navbar */
 nav {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
 }
 
@@ -145,7 +145,7 @@ nav .btn-outline-secondary {
 }
 
 .background-service{
-    background-image: url(../images/Bg@2x.png);
+    background-image: url(../images/Bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -183,4 +183,19 @@ nav .btn-outline-secondary {
 .section-3 {
     margin-top: 6rem;
 }
+/* end style section 3 */
 
+/* style section 4 */
+.section-4 {
+    margin-top: 6rem;
+}
+
+.section-4 p {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+}
+
+.section-4 h1 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+}
