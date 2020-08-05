@@ -104,6 +104,10 @@ nav .btn-outline-secondary {
     font-weight: 600;
 }
 
+.card-text {
+    font-weight: 500;
+}
+
 .icon-1 {
     width: 50px;
     height: 50px;
@@ -141,11 +145,10 @@ nav .btn-outline-secondary {
 }
 
 .background-service{
-    width: 100%;
     background-image: url(../images/Bg@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 100%;
 }
 
@@ -159,3 +162,25 @@ nav .btn-outline-secondary {
     background-color: #c68307;
     border: none;
 }
+/* style section Service */
+
+/* style section 3 */
+.section-3 h1{
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+}
+
+.section-3 p {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+}
+
+.section-3 h6 {
+    font-weight: 700;
+    font-family: 'poppins', sans-serif;
+}
+
+.section-3 {
+    margin-top: 6rem;
+}
+
