@@ -257,4 +257,10 @@ nav .btn-outline-secondary {
 /* style section 7 */
 .section-7 {
     margin-top: 9rem;
+    font-family: 'poppins', sans-serif;
 }
+
+.section-7 h1, .section-7 h5 {
+    font-weight: 700;
+}
+
