@@ -264,3 +264,51 @@ nav .btn-outline-secondary {
     font-weight: 700;
 }
 
+.section-7 .card a {
+    color: #2F281E;
+}
+
+.section-7 .card a:hover {
+    color: #FF9900;
+    text-decoration: none;
+}
+/* end style section 7 */
+
+/* style footer */
+footer {
+    font-family: 'poppins', sans-serif;
+}
+
+footer ul {
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+
+footer a li {
+    margin-top: 1rem;
+    font-weight: 400;
+    color: #173A56;
+}
+
+footer h5 {
+    font-weight: 700;
+}
+
+footer .form-control {
+    height: calc(2em + 0.75rem + 2px);
+}
+
+footer .btn-primary {
+    background-color: #f3a617;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+footer .btn-primary:hover {
+    background-color: #c68307;
+    border: none;
+}
+/* end style footer */
