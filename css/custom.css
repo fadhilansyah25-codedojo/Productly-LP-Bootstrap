@@ -252,6 +252,10 @@ nav .btn-outline-secondary {
     background-color: #c68307;
     border: none;
 }
+
+.section-6 .rounded-circle {
+    box-shadow: 0 0 7px rgb(84, 82, 82);
+}
 /* end style section 6 */
 
 /* style section 7 */
