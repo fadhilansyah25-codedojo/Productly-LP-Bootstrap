@@ -16,6 +16,9 @@ $('.section-4 #desc-section-4').hide();
 // hide section 5
 $('.section-5 #image-section-5').hide();
 $('.section-5 #desc-section-5').hide();
+
+// hide section 6
+$('.section-6 .container').hide();
 // -- end Hide Component and Element --
 
 // scroll animate
@@ -31,20 +34,24 @@ $(window).scroll(function () {
     };
 
     // scroll animatee section 3
-    if ( wScroll > $('.section-3 ').offset().top - 700) {
+    if ( wScroll > $('.section-3 ').offset().top - 750) {
         $('.section-3 #image-section-3').show().addClass('animate__animated animate__fadeInRight');
         $('.section-3 #desc-section-3').show().addClass('animate__animated animate__fadeInLeft');
     };
 
     // scroll animatee section 4
-    if ( wScroll > $('.section-4 ').offset().top - 700) {
+    if ( wScroll > $('.section-4 ').offset().top - 750) {
         $('.section-4 #image-section-4').show().addClass('animate__animated animate__fadeInLeft');
         $('.section-4 #desc-section-4').show().addClass('animate__animated animate__fadeInRight');
     };
 
     // scroll animatee section 5
-    if ( wScroll > $('.section-5 ').offset().top - 700) {
+    if ( wScroll > $('.section-5 ').offset().top - 750) {
         $('.section-5 #image-section-5').show().addClass('animate__animated animate__fadeInRight');
         $('.section-5 #desc-section-5').show().addClass('animate__animated animate__fadeInLeft');
+    };
+
+    if ( wScroll > $('.section-6').offset().top - 500) {
+        $('.section-6 .container').show().addClass('animate__animated animate__zoomIn');
     };
 });
