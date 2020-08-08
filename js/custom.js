@@ -30,7 +30,7 @@ $(window).scroll(function () {
         $('.service .card').each(function (i) {
             $('.service .card').eq(i).show().addClass('animate__animated animate__fadeInUp');
         });
-        $('.service .btn-primary').show().addClass('animate__animated animate__fadeInUp');
+        $('.service .btn-primary').show().addClass('animate__animated animate__fadeIn animate__delay-1s');
     };
 
     // scroll animatee section 3
