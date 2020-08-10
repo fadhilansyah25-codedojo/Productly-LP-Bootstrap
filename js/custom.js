@@ -1,57 +1,37 @@
+jQuery.fn.visible = function() {
+    return this.css('visibility', 'visible');
+};
+
+jQuery.fn.invisible = function() {
+    return this.css('visibility', 'hidden');
+};
+
+jQuery.fn.visibilityToggle = function() {
+    return this.css('visibility', function(i, visibility) {
+        return (visibility == 'visible') ? 'hidden' : 'visible';
+    });
+};
+
+
 // -- Hide Component and Element -- 
 // hide section service
 $('.service .card').each(function (i) {
-    $('.service .card').eq(i).hide();
+    $('.service .card').eq(i).attr({"data-aos" : "fade-up", "data-aos-duration" : "800", "data-aos-delay" : "100"});
 });
-$('.service .btn-primary').hide();
+$('.service .btn-primary').attr({"data-aos" : "fade-in", "data-aos-duration" : "800", "data-aos-delay" : "300"});
 
 // hide section 3
-$('.section-3 #image-section-3').hide();
-$('.section-3 #desc-section-3').hide();
+$('.section-3 #image-section-3').attr({"data-aos" : "fade-left", "data-aos-duration" : "800", "data-aos-delay" : "100"});
+$('.section-3 #desc-section-3').attr({"data-aos" : "fade-right", "data-aos-duration" : "800", "data-aos-delay" : "100"});
 
 // hide section 4
-$('.section-4 #image-section-4').hide();
-$('.section-4 #desc-section-4').hide();
+$('.section-4 #image-section-4').attr({"data-aos" : "fade-right", "data-aos-duration" : "800", "data-aos-delay" : "100"});
+$('.section-4 #desc-section-4').attr({"data-aos" : "fade-left", "data-aos-duration" : "800", "data-aos-delay" : "100"});
 
 // hide section 5
-$('.section-5 #image-section-5').hide();
-$('.section-5 #desc-section-5').hide();
+$('.section-5 #image-section-5').attr({"data-aos" : "fade-left", "data-aos-duration" : "800", "data-aos-delay" : "100"});
+$('.section-5 #desc-section-5').attr({"data-aos" : "fade-right", "data-aos-duration" : "800", "data-aos-delay" : "100"});
 
 // hide section 6
-$('.section-6 .container').hide();
+$('.section-6 .container').attr({"data-aos" : "zoom-in", "data-aos-duration" : "800", "data-aos-delay" : "500"});
 // -- end Hide Component and Element --
-
-// scroll animate
-$(window).scroll(function () {
-    const wScroll = $(this).scrollTop();
-
-    // scroll animate section service
-    if ( wScroll > $('.service ').offset().top - 300) {
-        $('.service .card').each(function (i) {
-            $('.service .card').eq(i).show().addClass('animate__animated animate__fadeInUp');
-        });
-        $('.service .btn-primary').show().addClass('animate__animated animate__fadeIn animate__delay-1s');
-    };
-
-    // scroll animatee section 3
-    if ( wScroll > $('.section-3 ').offset().top - 750) {
-        $('.section-3 #image-section-3').show().addClass('animate__animated animate__fadeInRight');
-        $('.section-3 #desc-section-3').show().addClass('animate__animated animate__fadeInLeft');
-    };
-
-    // scroll animatee section 4
-    if ( wScroll > $('.section-4 ').offset().top - 750) {
-        $('.section-4 #image-section-4').show().addClass('animate__animated animate__fadeInLeft');
-        $('.section-4 #desc-section-4').show().addClass('animate__animated animate__fadeInRight');
-    };
-
-    // scroll animatee section 5
-    if ( wScroll > $('.section-5 ').offset().top - 750) {
-        $('.section-5 #image-section-5').show().addClass('animate__animated animate__fadeInRight');
-        $('.section-5 #desc-section-5').show().addClass('animate__animated animate__fadeInLeft');
-    };
-
-    if ( wScroll > $('.section-6').offset().top - 500) {
-        $('.section-6 .container').show().addClass('animate__animated animate__zoomIn');
-    };
-});
