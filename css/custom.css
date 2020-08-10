@@ -266,6 +266,10 @@ nav .btn-outline-secondary {
     font-family: 'poppins', sans-serif;
 }
 
+.section-7 .card {
+    width: 20rem;
+}
+
 .section-7 h1, .section-7 h5 {
     font-weight: 700;
 }
@@ -277,6 +281,11 @@ nav .btn-outline-secondary {
 .section-7 .card a:hover {
     color: #FF9900;
     text-decoration: none;
+}
+
+.section-7 .con-carousel li{
+    color: #FF9900;
+    text-indent: 1px;
 }
 /* end style section 7 */
 
