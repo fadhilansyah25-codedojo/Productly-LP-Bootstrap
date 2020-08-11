@@ -283,9 +283,18 @@ nav .btn-outline-secondary {
     text-decoration: none;
 }
 
-.section-7 .con-carousel li{
+.section-7 .carousel-indicators{
+    position: static;
+    z-index: 0;
+}
+
+.section-7 .carousel-indicators li {
     color: #FF9900;
     text-indent: 1px;
+    width: auto;
+    height: auto;
+    border: none;
+    margin: 4px;
 }
 /* end style section 7 */
 

@@ -16,22 +16,22 @@ jQuery.fn.visibilityToggle = function() {
 // -- Hide Component and Element -- 
 // hide section service
 $('.service .card').each(function (i) {
-    $('.service .card').eq(i).attr({"data-aos" : "fade-up", "data-aos-duration" : "800", "data-aos-delay" : "100"});
+    $('.service .card').eq(i).attr({"data-aos" : "fade-up", "data-aos-duration" : "500", "data-aos-delay" : "100"});
 });
-$('.service .btn-primary').attr({"data-aos" : "fade-in", "data-aos-duration" : "800", "data-aos-delay" : "300"});
+$('.service .btn-primary').attr({"data-aos" : "fade-in", "data-aos-duration" : "500", "data-aos-delay" : "300"});
 
 // hide section 3
-$('.section-3 #image-section-3').attr({"data-aos" : "fade-left", "data-aos-duration" : "800", "data-aos-delay" : "50"});
-$('.section-3 #desc-section-3').attr({"data-aos" : "fade-right", "data-aos-duration" : "800", "data-aos-delay" : "50"});
+$('.section-3 #image-section-3').attr({"data-aos" : "fade-left", "data-aos-duration" : "500", "data-aos-delay" : "50"});
+$('.section-3 #desc-section-3').attr({"data-aos" : "fade-right", "data-aos-duration" : "500", "data-aos-delay" : "50"});
 
 // hide section 4
-$('.section-4 #image-section-4').attr({"data-aos" : "fade-right", "data-aos-duration" : "800", "data-aos-delay" : "50"});
-$('.section-4 #desc-section-4').attr({"data-aos" : "fade-left", "data-aos-duration" : "800", "data-aos-delay" : "50"});
+$('.section-4 #image-section-4').attr({"data-aos" : "fade-right", "data-aos-duration" : "500", "data-aos-delay" : "50"});
+$('.section-4 #desc-section-4').attr({"data-aos" : "fade-left", "data-aos-duration" : "500", "data-aos-delay" : "50"});
 
 // hide section 5
-$('.section-5 #image-section-5').attr({"data-aos" : "fade-left", "data-aos-duration" : "800", "data-aos-delay" : "50"});
-$('.section-5 #desc-section-5').attr({"data-aos" : "fade-right", "data-aos-duration" : "800", "data-aos-delay" : "50"});
+$('.section-5 #image-section-5').attr({"data-aos" : "fade-left", "data-aos-duration" : "500", "data-aos-delay" : "50"});
+$('.section-5 #desc-section-5').attr({"data-aos" : "fade-right", "data-aos-duration" : "500", "data-aos-delay" : "50"});
 
 // hide section 6
-$('.section-6 .container').attr({"data-aos" : "zoom-in", "data-aos-duration" : "800", "data-aos-delay" : "200"});
+$('.section-6 .container').attr({"data-aos" : "zoom-in", "data-aos-duration" : "500", "data-aos-delay" : "200"});
 // -- end Hide Component and Element --
