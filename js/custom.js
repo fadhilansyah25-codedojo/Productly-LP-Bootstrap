@@ -33,5 +33,8 @@ $('.section-5 #image-section-5').attr({"data-aos" : "fade-left", "data-aos-durat
 $('.section-5 #desc-section-5').attr({"data-aos" : "fade-right", "data-aos-duration" : "500", "data-aos-delay" : "50"});
 
 // hide section 6
-$('.section-6 .container').attr({"data-aos" : "zoom-in", "data-aos-duration" : "500", "data-aos-delay" : "200"});
+$('.section-6 .thumbnail-bubble').each(e => {
+        $('.section-6 .thumbnail-bubble').eq(e).attr({"data-aos" : "zoom-in", "data-aos-duration" : "500", "data-aos-delay" : "100"})
+    }
+);
 // -- end Hide Component and Element --
